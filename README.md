@@ -14,4 +14,4 @@ use tcp::{Header, v4::PseudoHeader, v4::segment::make};
 
 let mut header = Header { /* ... */ };
 let mut options = vec![ /* ... */ ];
-make(&mut (pseudo, header, options, payload))?;```
+make(&mut (pseudo, header, options, payload))?;
